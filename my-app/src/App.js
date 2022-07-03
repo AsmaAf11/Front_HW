@@ -23,11 +23,11 @@ function App() {
       <h1>Movies</h1>
       <hr></hr>
       </div>
-      <p class="row" style={{display:'flex',flexWrap:'noWrap'}}>
+      <div class="row" style={{display:'flex',flexWrap:'noWrap'}}>
 
        {CardName}
       
-      </p>
+      </div>
 
       
       

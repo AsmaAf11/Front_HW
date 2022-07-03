@@ -17,6 +17,9 @@ hr{
 }
 
 div{
+
+
+  column-count: auto;
     justify-content: space-between; 
     padding: 10px;
   margin: 10px;  
@@ -34,5 +37,12 @@ div{
 
   div.raw:hover{
     opacity:0,7;
+  }
+
+div.raw {
+  column-count: 3;
+  max-width: 1000px;
+
+    
   }
 
